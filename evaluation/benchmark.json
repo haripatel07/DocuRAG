@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is dependency injection in FastAPI?",
+    "ground_truth": "Dependency injection in FastAPI is a mechanism where you declare dependencies in function parameters using the Depends() function, and FastAPI automatically resolves and injects them at request time."
+  },
+  {
+    "question": "How do I create a path operation in FastAPI?",
+    "ground_truth": "A path operation in FastAPI is created by decorating an async or sync function with an HTTP method decorator such as @app.get(), @app.post(), @app.put(), or @app.delete(), combined with a URL path string."
+  },
+  {
+    "question": "What is Pydantic used for in FastAPI?",
+    "ground_truth": "Pydantic is used in FastAPI to define data models for request bodies, response schemas, and configuration, providing automatic validation and serialization based on Python type hints."
+  }
+]

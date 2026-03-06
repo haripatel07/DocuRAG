@@ -1,0 +1,49 @@
+# Core RAG frameworks
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-openai==0.3.7
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.6
+
+# Vector store
+faiss-cpu==1.9.0
+
+# LLM providers
+openai==1.68.0
+
+# Embeddings
+sentence-transformers==3.4.1
+
+# Document loaders
+pypdf==5.4.0
+unstructured==0.16.23
+markdown==3.7
+beautifulsoup4==4.13.3
+requests==2.32.3
+
+# API framework
+fastapi==0.115.11
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+pydantic-settings==2.8.1
+
+# Reranking
+flashrank==0.2.9
+
+# Observability
+langsmith==0.3.15
+
+# Evaluation
+ragas==0.2.14
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==9.0.0
+numpy==2.2.3
+tqdm==4.67.1
+loguru==0.7.3
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.25.3
+httpx==0.28.1
